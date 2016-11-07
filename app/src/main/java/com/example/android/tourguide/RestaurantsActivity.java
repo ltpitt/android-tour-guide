@@ -26,6 +26,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+
+
 public class RestaurantsActivity extends AppCompatActivity {
 
     /** Handles playback of all the sound files */
@@ -85,12 +87,13 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("By Lima", "Good and organic food café", R.drawable.ic_local_drink, R.raw.cafe));
-        items.add(new Item("Back to Basics", "Great Italian Pizza", R.drawable.ic_local_pizza, R.raw.pizza));
+        items.add(new Item(getResources().getString(R.string.restaurant_name_1), getResources().getString(R.string.restaurant_description_1), R.drawable.ic_local_drink, R.raw.cafe));
+        items.add(new Item(getResources().getString(R.string.restaurant_name_2), getResources().getString(R.string.restaurant_description_2), R.drawable.ic_local_pizza, R.raw.pizza));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
         ItemAdapter adapter = new ItemAdapter(this, items, R.color.category_colors);
+
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
