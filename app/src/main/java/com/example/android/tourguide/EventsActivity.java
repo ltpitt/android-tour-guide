@@ -85,7 +85,7 @@ public class EventsActivity extends AppCompatActivity {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Magic summer moment in the lively town center", "Haarlem Jazz Fest", R.drawable.number_one, R.raw.number_one));
+        items.add(new Item("Haarlem Jazz Festival", "Magic summer moment in the lively town center", R.drawable.ic_music_note, R.raw.ourlove));
 
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The

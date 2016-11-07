@@ -85,18 +85,12 @@ public class UsefulPhrasesActivity extends AppCompatActivity {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Where are you going?", "minto wuksus",
-                R.raw.phrase_where_are_you_going));
-        items.add(new Item("What is your name?", "tinnә oyaase'nә",
-                R.raw.phrase_what_is_your_name));
-        items.add(new Item("My name is...", "oyaaset...", R.raw.phrase_my_name_is));
-        items.add(new Item("How are you feeling?", "michәksәs?", R.raw.phrase_how_are_you_feeling));
-        items.add(new Item("I’m feeling good.", "kuchi achit", R.raw.phrase_im_feeling_good));
-        items.add(new Item("Are you coming?", "әәnәs'aa?", R.raw.phrase_are_you_coming));
-        items.add(new Item("Yes, I’m coming.", "hәә’ әәnәm", R.raw.phrase_yes_im_coming));
-        items.add(new Item("I’m coming.", "әәnәm", R.raw.phrase_im_coming));
-        items.add(new Item("Let’s go.", "yoowutis", R.raw.phrase_lets_go));
-        items.add(new Item("Come here.", "әnni'nem", R.raw.phrase_come_here));
+        items.add(new Item("Good morning", "Goedemorgen",
+                R.raw.phrases_good_morning));
+        items.add(new Item("What is your name?", "Hoe heet je?",
+                R.raw.phrases_what_is_your_name));
+        items.add(new Item("My name is ...", "Ik ben ...", R.raw.phrases_my_name_is));
+        items.add(new Item("Thank you", "Bendankt", R.raw.phrases_thank_you));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

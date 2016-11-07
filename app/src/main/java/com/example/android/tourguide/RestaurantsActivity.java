@@ -85,8 +85,8 @@ public class RestaurantsActivity extends AppCompatActivity {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Good and organic food café", "By Lima", R.drawable.color_red, R.raw.color_red));
-        items.add(new Item("Great Italian Pizza", "Back to Basics", R.drawable.color_red, R.raw.color_red));
+        items.add(new Item("By Lima", "Good and organic food café", R.drawable.ic_local_drink, R.raw.cafe));
+        items.add(new Item("Back to Basics", "Great Italian Pizza", R.drawable.ic_local_pizza, R.raw.pizza));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.

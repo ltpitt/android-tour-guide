@@ -85,7 +85,7 @@ public class SightsActivity extends AppCompatActivity {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Fantastic Windmill, symbol of Haarlem", "Adriaan Windmill", R.drawable.family_father, R.raw.family_father));
+        items.add(new Item("Adriaan Windmill", "A symbol of Haarlem", R.drawable.ic_adriaan, R.raw.windmill));
 
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
