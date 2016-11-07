@@ -85,12 +85,12 @@ public class UsefulPhrasesActivity extends AppCompatActivity {
 
         // Create a list of items
         final ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("Good morning", "Goedemorgen",
+        items.add(new Item(getResources().getString(R.string.phrase_name_1), getResources().getString(R.string.phrase_description_1),
                 R.raw.phrases_good_morning));
-        items.add(new Item("What is your name?", "Hoe heet je?",
+        items.add(new Item(getResources().getString(R.string.phrase_name_2), getResources().getString(R.string.phrase_description_2),
                 R.raw.phrases_what_is_your_name));
-        items.add(new Item("My name is ...", "Ik ben ...", R.raw.phrases_my_name_is));
-        items.add(new Item("Thank you", "Bendankt", R.raw.phrases_thank_you));
+        items.add(new Item(getResources().getString(R.string.phrase_name_3), getResources().getString(R.string.phrase_description_3), R.raw.phrases_my_name_is));
+        items.add(new Item(getResources().getString(R.string.phrase_name_4), getResources().getString(R.string.phrase_description_4), R.raw.phrases_thank_you));
 
         // Create an {@link ItemAdapter}, whose data source is a list of {@link Item}s. The
         // adapter knows how to create list items for each item in the list.
