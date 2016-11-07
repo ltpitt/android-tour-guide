@@ -13,6 +13,56 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Restaurant 1 name. [CHAR LIMIT=12] -->
+    <string name="restaurant_name_1">By Lima</string>
+
+    <!-- Restaurant 1 description. [CHAR LIMIT=12] -->
+    <string name="restaurant_description_1">Good and organic food café</string>
+
+    <!-- Restaurant 2 name. [CHAR LIMIT=12] -->
+    <string name="restaurant_name_2">Back to Basics</string>
+
+    <!-- Restaurant 2 description. [CHAR LIMIT=12] -->
+    <string name="restaurant_description_2">Great Italian Pizza</string>
+
+    <!-- Event 1 name. [CHAR LIMIT=12] -->
+    <string name="event_name_1">Haarlem Jazz Festival</string>
+
+    <!-- Event 1 description. [CHAR LIMIT=12] -->
+    <string name="event_description_1">Magic summer moment in the lively town center</string>
+
+    <!-- Sight 1 name. [CHAR LIMIT=12] -->
+    <string name="sight_name_1">Adriaan Windmill</string>
+
+    <!-- Sight 1 description. [CHAR LIMIT=12] -->
+    <string name="sight_description_1">A symbol of Haarlem</string>
+
+    <!-- Phrase 1 name. [CHAR LIMIT=12] -->
+    <string name="phrase_name_1">Good morning</string>
+
+    <!-- Phrase 1 description. [CHAR LIMIT=12] -->
+    <string name="phrase_description_1">Goedemorgen</string>
+
+    <!-- Phrase 2 name. [CHAR LIMIT=12] -->
+    <string name="phrase_name_2">What is your name?</string>
+
+    <!-- Phrase 2 description. [CHAR LIMIT=12] -->
+    <string name="phrase_description_2">Hoe heet je?</string>
+
+    <!-- Phrase 3 name. [CHAR LIMIT=12] -->
+    <string name="phrase_name_3">My name is ...</string>
+
+    <!-- Phrase 3 description. [CHAR LIMIT=12] -->
+    <string name="phrase_description_3">Ik ben ...</string>
+
+    <!-- Phrase 4 name. [CHAR LIMIT=12] -->
+    <string name="phrase_name_4">Bendankt</string>
+
+    <!-- Phrase 4 description. [CHAR LIMIT=12] -->
+    <string name="phrase_description_4">A symbol of Haarlem</string>
+
+
+
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Tour Guide</string>
 
