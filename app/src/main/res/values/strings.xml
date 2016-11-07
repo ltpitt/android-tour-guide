@@ -56,10 +56,10 @@
     <string name="phrase_description_3">Ik ben ...</string>
 
     <!-- Phrase 4 name. [CHAR LIMIT=12] -->
-    <string name="phrase_name_4">Bendankt</string>
+    <string name="phrase_name_4">Thank you</string>
 
     <!-- Phrase 4 description. [CHAR LIMIT=12] -->
-    <string name="phrase_description_4">A symbol of Haarlem</string>
+    <string name="phrase_description_4">Bedankt</string>
 
 
 
